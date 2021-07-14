@@ -1,0 +1,406 @@
+/* Reset Browser CSS */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Top header */
+header{
+    background-image: url("images/main.jpg");
+    /* position: relative; */
+    max-width: 100%;
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* Nav Menu */
+#logo-nav-container{
+    background-color: #fff;
+    max-width: 70%;
+    opacity: 0.8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#menu > ul{
+    list-style-type: none;
+    margin: 10px;
+}
+#menu > ul > li{
+    display: inline-block;
+}
+
+.menu-item{
+    padding: 15px;
+    margin-bottom: 0;
+    text-decoration: none;
+    color: #c31323;
+    font-size: 18px;
+}
+.menu-item:hover{
+    color: #fff;
+    background-color: #820c17;
+}
+
+#logo > h1{
+    font-size: 40px;
+    margin-left: 30px;
+    padding: 5px;
+    color: #c31323;
+}
+
+/* SLider Text */
+
+#main-text{
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.5);
+    width: 50%;
+    padding: 30px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30%;
+    margin: auto;
+    text-align: center;
+    color: rgb(12, 4, 4)
+}
+
+#main-text > h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#main-text > p{
+    font-size: 30px;
+}
+#main-text > a{
+    color: #fff;
+    font-size: 27px;
+    background-color: #c31323;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 20px;
+}
+#main-text > a:hover{
+    background-color: #820c17;
+}
+
+
+/* Services */
+#service-container{
+    width: 100%;
+    margin-top: 50px;
+}
+#service-text{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#service-text > h1{
+    font-size: 40px;
+    width: 45%;
+    margin: auto;
+    border-bottom: 1px solid black;
+}
+
+#service-text > p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#service-boxes{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 35px;
+    justify-content: center;
+}
+.service{
+    width: 15rem;
+    height: 15rem;
+    margin: 15px;
+    /* background-color: rgba(195, 19, 35, 0.8); */
+    background: #c31323;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+.service > h2{
+    font-size: 2rem;
+    width: 80%;
+    margin: 15px auto 10px;
+    border-bottom: 1px solid white;
+}
+
+.service > p{
+    font-size: 1rem;
+    margin-top: 5px;
+    padding: 5px;
+    /* text-align: justify; */
+}
+
+.service:hover{
+    background-color: #820c17;
+}
+
+/* Our Team Section */
+#our-team{
+    max-width: 100%;
+    margin-top: 70px;
+    text-align: center;
+}
+
+
+#team-text{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#team-text > h1{
+    font-size: 40px;
+    width: 45%;
+    margin: auto;
+    border-bottom: 1px solid black;
+}
+
+#team-text > p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#team-photos{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+}
+
+.team-contain{
+    width: 15rem;
+    height: 15rem;
+    margin: 40px 10px 20px;
+    color: #fff;
+    border-radius: 100%;
+    background-color: #c31323;
+}
+#cindy{
+    background: url("images/cindy.jpg") no-repeat center/cover;
+}
+#kutti{
+    background: url("images/kutti.jpg") no-repeat center/cover;
+}
+#machan{
+    background: url("images/machan.jpeg") no-repeat center/cover;
+}
+#machi{
+    background: url("images/machi.jpeg") no-repeat center/cover;
+}
+
+.team{
+    margin-top: 60px;
+}
+
+.name{
+    width: 30%;
+    padding: 5px;
+    margin: auto;
+    border-bottom: 1px solid white;
+}
+.role{
+    margin-top: 5px;
+    padding: 5px;
+} 
+.social{
+    padding: 5px;
+}
+.social > i{
+    padding: 5px;
+    color: #3b5998;
+}
+
+.team{
+    opacity: 0;
+}
+.team-contain:hover .team{
+    opacity: 1;
+}
+
+#cindy:hover, #kutti:hover, #machan:hover, #machi:hover{
+    background: #c31323;
+}
+
+/* Contact Section */
+
+#contact-container{
+    width: 100%;
+    margin-top: 70px;
+
+}
+#contact-contain{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+}
+#contact-container > h1{
+    font-size: 40px;
+    width: 20%;
+    display: block;
+    margin: 10px auto 30px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.contact{
+    width: 50%;
+    padding: 5px;
+    margin: 10px;
+    
+}
+#contact-text > h1{
+    font-size: 30px;
+}
+#contact-text > h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+#contact-text{
+    width: 60%;
+    padding: 20px;
+    margin: 100px auto 10px;
+    text-align: center;
+    /* background: crimson; */
+}
+.contact:last-child{
+    border-left: 1px solid black;
+}
+.contact > *{
+    padding: 5px;
+}
+form > *{
+    /* margin-left: 100px; */
+    display: block;
+    width: 100%;
+}
+
+#contact-form{
+    width: 70%;
+    margin: 50px auto 10px;
+    /* background: chocolate; */
+}
+#contact-form > h1{
+    margin-bottom: 20px;
+}
+
+input, textarea{
+    padding: 5px;
+    margin: 5px;
+}
+label{
+    margin: 5px;
+}
+
+
+/* Portfolio Images */
+#portfolio{
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+}
+#portfolio > h1 {
+    font-size: 40px;
+    width: 25%;
+    margin: auto;
+    border-bottom: 1px solid black;
+}
+#portfolio > p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#portfolio > p {
+    margin-bottom: 50px;
+}
+.portfolio-container{
+    display: flex;
+    width: 74%;
+    justify-content: space-around;
+    margin: auto;
+}
+.portfolio-images{
+    /* background: url('images/p1.jpg') no-repeat center/cover; */
+    height: 300px;
+    width: 300px;
+    margin: 5px 5px 35px;
+    text-align: center;
+    padding: 20px;
+}
+#p1{
+    background: url('images/p1.jpg') no-repeat center/cover;
+}
+#p2{
+    background: url('images/p2.jpg') no-repeat center/cover;
+}
+#p3{
+    background: url('images/p3.jpg') no-repeat center/cover;
+}
+#p4{
+    background: url('images/p4.jpg') no-repeat center/cover;
+}
+#p5{
+    background: url('images/p5.jpg') no-repeat center/cover;
+}
+#p6{
+    background: url('images/p6.jpg') no-repeat center/cover;
+}
+.portfolio-images > i {
+    margin-top: 20px;
+}
+.portfolio-images > *{
+    position: relative;
+    top: 30%;
+}
+
+.portfolio-images > *{
+    opacity: 0;
+}
+.portfolio-images:hover > *{
+    opacity: 1;
+}
+#p1:hover, #p2:hover, #p3:hover, #p4:hover, #p5:hover, #p6:hover{
+    opacity: 1;
+    background: #c31323;
+    color: #fff;
+}
+/* Footer */
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#copyright{
+    margin-left: 50px;
+}
+
+#back-to-top{
+    margin-right: 50px;
+    background-color: #c31323;
+    padding: 5px 20px 5px;
+}
+#back-to-top > a {
+    color: #fff;
+    text-decoration: none;
+}
